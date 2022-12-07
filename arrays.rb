@@ -31,3 +31,13 @@ names[3]
 
 # This code will return the first element of the names array ('Sam') at index position 0.
 names[0]
+
+# THE SAMPLE METHOD
+
+# When called on an array, the sample method chooses a random element (or multiple random elements) and returns the element(s).
+# This method takes an option argument of an integer value, n.
+
+prices = [250, 675, 1000, 24, 768]
+
+prices.sample # This code will return a single random element from the prices array
+prices.sample(3) # This code will return an array containing three random elements from the prices array
