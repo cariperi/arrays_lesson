@@ -18,3 +18,16 @@ floats_array.shift
 # Calling the unshift method will add the specific argument value (false) to the beginning of the booleans_array, and will return the new, larger array.
 booleans_array.unshift(false)
 # p booleans_array.unshift(false)
+
+# UNDERSTANDING INDEX POSITIONS
+
+names = ['Sam', 'Kate', 'Bob', 'Lisa']
+
+# This code will return the second element of the names array ('Kate') at index position 1.
+names[1]
+
+# This code will return the last element of the names array ('Lisa') at index position 3.
+names[3]
+
+# This code will return the first element of the names array ('Sam') at index position 0.
+names[0]
